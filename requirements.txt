@@ -1,0 +1,5 @@
+customtkinter>=5.2
+playwright>=1.44
+pyperclip>=1.8
+notion-client==2.2.1
+python-dotenv>=1.0

@@ -1,0 +1,21 @@
+{
+  "pairs": ["EURUSD", "GBPUSD"],
+  "timeframes": [
+    {"tf": "1W",  "column": "W"},
+    {"tf": "1D",  "column": "D"},
+    {"tf": "240", "column": "4H"},
+    {"tf": "60",  "column": "1H"},
+    {"tf": "15",  "column": "15m"},
+    {"tf": "5",   "column": "5m"}
+  ],
+  "load_delay_sec": 2,
+  "snapshot_timeout_sec": 10,
+  "snapshot_retries": 1,
+  "cdp_url": "http://127.0.0.1:9222",
+  "notion": {
+    "database_id": "98afde40ea144c7e85cd584016a8411e",
+    "pair_property": "Pair",
+    "date_property": "Date",
+    "setup_property": "Setup"
+  }
+}
